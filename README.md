@@ -1,15 +1,14 @@
 # ICAM
-
-ICAM 是一個以 SwiftUI 開發的 iOS AI 影像應用，提供文字生成圖片、圖片生成圖片、相機拍照與歷史紀錄等功能。
+2024 大學畢業專題：以 SwiftUI 開發的 iOS AI 影像應用應用程式。
 
 ## 功能
 
-- 文字轉圖片（Text-to-Image）
-- 圖片轉圖片（Image-to-Image）
-- 影像編輯（含遮罩編修流程）
+- 文字轉圖片
+- 圖片轉圖片
+- 影像編輯（含遮罩編輯）
 - 相簿儲存與系統分享
 - Core Data 歷史紀錄
-- 多種視覺風格與預設效果
+- 多樣化的視覺風格與效果
 
 ## 技術與相依套件
 
@@ -33,10 +32,6 @@ ICAM 是一個以 SwiftUI 開發的 iOS AI 影像應用，提供文字生成圖�
 ## 如何執行
 
 1. 使用 Xcode 開啟 `Project/ICAM.xcodeproj`
-2. 選擇模擬器或實機
+2. 選擇模擬器或實機（本專案使用 iPhone 14 Pro）
 3. 在 `Project/ICAM/Model/OpenAIService.swift` 設定自己的 OpenAI API Key
 4. Build & Run
-
-## 安全建議
-
-請勿把實際 API Key 提交到版本控制。建議改用本機設定檔或 Keychain 管理金鑰。
